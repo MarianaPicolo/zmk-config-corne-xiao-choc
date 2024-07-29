@@ -27,7 +27,7 @@
 &kp TAB    &kp N1  &kp N2    &kp N3    &kp N4  &kp N5  &kp N6     &kp N7     &kp N8    &kp N9         &kp N0    &kp BSPC
 &kp LSHFT  &trans  &trans    &trans    &trans  &none   &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT       &kp BSLH  &kp GRAVE
 &kp LCTRL  &trans  &kp LALT  &trans    &trans  &none   &kp UNDER  &kp PLUS   &kp LBRC  &mt RALT RBRC  &kp PIPE  &kp TILDE
-                             &kp LGUI  &trans  &tog 0  &tog 2     &trans     &kp RGUI
+                             &kp LGUI  &trans  &tog 1  &tog 2     &trans     &kp RGUI
             >;
         };
 
@@ -36,7 +36,7 @@
 &kp TAB      &kp F1        &kp F2        &kp F3        &kp F4        &kp F5        &kp F6    &kp F7    &kp F8    &kp F9     &kp F10    &kp BSPC
 &bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &kp F11    &kp F12
 &bootloader  &kp LSHFT     &kp LALT      &trans        &trans        &trans        &trans    &trans    &trans    &kp RALT   &kp RSHFT  &kp RCTRL
-                                         &kp LGUI      &trans        &tog 1        &tog 0    &trans    &kp RGUI
+                                         &kp LGUI      &trans        &tog 1        &tog 2    &trans    &kp RGUI
             >;
         };
     };
