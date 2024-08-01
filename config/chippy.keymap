@@ -23,10 +23,10 @@
 
         num_nav {
             bindings = <
-&kp ESCAPE  &trans     &kp N7  &kp N8  &kp N9  &trans     &trans  &trans          &kp UP_ARROW  &trans     &trans  &trans
-&kp TAB     &kp LSHFT  &kp N4  &kp N5  &kp N6  &kp EQUAL  &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans  &trans
-&trans      &kp LGUI   &kp N1  &kp N2  &kp N3  &kp BSLH   &trans  &trans          &trans        &trans     &trans  &trans
-                               &kp N0  &trans  &trans     &trans  &trans          &trans
+&kp ESCAPE  &trans     &kp N7  &kp N8  &kp N9  &kp EQUAL         &trans  &trans          &kp UP_ARROW  &trans     &trans  &trans
+&kp TAB     &kp LSHFT  &kp N4  &kp N5  &kp N6  &kp LEFT_COMMAND  &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans  &trans
+&trans      &trans     &kp N1  &kp N2  &kp N3  &kp BSLH          &trans  &trans          &trans        &trans     &trans  &trans
+                               &kp N0  &trans  &trans            &trans  &trans          &trans
             >;
         };
 
